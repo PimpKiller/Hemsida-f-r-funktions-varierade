@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E Huset</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-1-nsns">
+        <li class="text">1 Nösnäs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-2-nsns">
+        <li class="text">2 Nösnäs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-3-ingng">
+        <li class="text">3 Ingång</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-4-ingng-mot-kapprum">
+        <li class="text">4 Ingång-Mot-Kapprum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-5-start-vervning">
+        <li class="text">5 Start-Övervåning</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-6-stolar">
+        <li class="text">6 Stolar</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-7-matsal">
+        <li class="text">7 Matsal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-8-matsal">
+        <li class="text">8 Matsal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-9-matsal">
+        <li class="text">9 Matsal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-10-restaurang">
+        <li class="text">10 Restaurang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-11-kk">
+        <li class="text">11 Kök</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-12-kk">
+        <li class="text">12 Kök</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-13-verkligtlrandekk">
+        <li class="text">13 VerkligtLärandeKök</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-14-verkligtlrandekk">
+        <li class="text">14 VerkligtLärandeKök</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-15-utanfr-sal">
+        <li class="text">15 Utanför-Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-16-teori-verkligtlrandekk">
+        <li class="text">16 Teori-VerkligtLärandeKök</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-17-utanfr-toa">
+        <li class="text">17 Utanför-Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-18-toa">
+        <li class="text">18 Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-19-stolar-utanfr-toa">
+        <li class="text">19 Stolar-Utanför-Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-201-stolar-toa">
+        <li class="text">20.1 Stolar-Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-202-stolar-toa">
+        <li class="text">20.2 Stolar-Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-21-korridor">
+        <li class="text">21 Korridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-215-sal">
+        <li class="text">21.5 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-22-korridor">
+        <li class="text">22 Korridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-225-korridor">
+        <li class="text">22.5 Korridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-23-sal">
+        <li class="text">23 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-24-korridor">
+        <li class="text">24 Korridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-25-sal">
+        <li class="text">25 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-26-korridor">
+        <li class="text">26 Korridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-27-sal">
+        <li class="text">27 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-28-trapprum-uppe">
+        <li class="text">28 Trapprum-Uppe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-285-sal">
+        <li class="text">28.5 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-29-sal">
+        <li class="text">29 Sal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-30-utanfr-toa">
+        <li class="text">30 Utanför Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-31-toa">
+        <li class="text">31 Toa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-32-trapprum-nere">
+        <li class="text">32 Trapprum-Nere</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-33-kapprum">
+        <li class="text">33 Kapprum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-335-passage">
+        <li class="text">33.5 Passage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-34-utgng-grd">
+        <li class="text">34 Utgång-Gård</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-35-grd">
+        <li class="text">35 Gård</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-36-ingng-verkligtlrandefordon">
+        <li class="text">36 Ingång-VerkligtLärandeFordon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-37-verkligtlrandefordon">
+        <li class="text">37 VerkligtLärandeFordon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-38-verkligtlrandefordon">
+        <li class="text">38 VerkligtLärandeFordon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-39-verktyg-lrandefordon">
+        <li class="text">39 Verktyg-LärandeFordon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-40-tvtt-lrandefordon">
+        <li class="text">40 Tvätt-LärandeFordon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-41-fordon-snickeri">
+        <li class="text">41 Fordon-Snickeri</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-42-vrkligtlrandesnickeri">
+        <li class="text">42 VärkligtLärandeSnickeri</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-43-ingng-verkligtlrandesnickeri">
+        <li class="text">43 Ingång-VerkligtLärandeSnickeri</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
