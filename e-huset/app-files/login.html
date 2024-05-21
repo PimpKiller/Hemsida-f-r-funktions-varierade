@@ -1,0 +1,29 @@
+   
+   
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+</head>
+<body>
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+
+  
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "bollar";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location.href = "index.html" + window.location.search;
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+</body>
+</html>
